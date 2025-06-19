@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open RN App</title>
 </head>
 <body>
-    <input type="button" id="inputField" value="Click Me">
+  <input type="button" id="inputField" value="Click Me">
+
+  <script>
+    document
+      .getElementById('inputField')
+      .addEventListener('click', () => {
+        window.location.href = 
+      'https://eliesaide123.github.io/App-Linking/open';
+      });
+  </script>
 </body>
 </html>
