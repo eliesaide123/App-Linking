@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dqcsapp",
+      "sha256_cert_fingerprints": [
+        "F8:31:C3:E0:E8:44:30:0F:DF:67:B8:E7:A7:25:BF:76:A8:6D:3A:1F:69:2D:55:E2:B4:7B:32:83:45:82:24:C8"
+      ]
+    }
+  }
+]
